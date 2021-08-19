@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="30px">
+
+    <EditText
+        android:id="@+id/edtDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:padding="10px"
+        android:textSize="80px"
+    />
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="get"
+        android:textSize="80px"
+        />
+    <Button
+        android:id="@+id/btnSet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="set"
+        android:textSize="80px"
+        />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10px"
+        android:text="title"
+        android:textSize="80px"
+        android:background="#bfbfbf"
+        android:layout_marginTop="50px"
+        />
+
+    <Button
+        android:id="@+id/btnVisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visible"
+        android:textAllCaps="false"
+        android:textSize="80px"
+        />
+
+    <Button
+        android:id="@+id/btnInVisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="InVisible"
+        android:textAllCaps="false"
+        android:textSize="80px"
+        />
+
+    <Button
+        android:id="@+id/btnGone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gone"
+        android:textAllCaps="false"
+        android:textSize="80px"
+        />
+
+</LinearLayout>
